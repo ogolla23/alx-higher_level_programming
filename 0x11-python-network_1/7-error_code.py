@@ -8,7 +8,7 @@ import requests
 
 if __name__ == "__main__":
     url = argv[1]
-    r= requests.get(url)
+    r = requests.get(url)
 
     if r.status_code == requests.code.ok:
         print(r.text)
