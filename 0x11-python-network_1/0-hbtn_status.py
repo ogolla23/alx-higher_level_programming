@@ -2,6 +2,7 @@
 """This is a python script that fetches a url"""
 from urllib.request import Request, urlopen
 
+
 def main():
     """ A function that prints the url"""
     req = Request("https://alx-intranet.hbtn.io/status")
@@ -11,6 +12,7 @@ def main():
         print("\t- type: {}".format(type(HTML)))
         print("\t- content: {}".format(HTML))
         print("\t- utf8 content: {}".format(HTML.decode("utf-8")))
+
 
 if __name__ == "__main__":
     main()
