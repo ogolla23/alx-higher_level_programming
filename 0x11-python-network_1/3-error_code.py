@@ -6,6 +6,7 @@ from sys import argv
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
+
 def main(argv):
     """
     A function that manage urllib.error.HTTPError exceptions and

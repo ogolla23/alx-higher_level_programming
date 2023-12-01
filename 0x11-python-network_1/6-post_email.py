@@ -5,6 +5,7 @@ A script that POST request a url
 import requests
 from sys import argv
 
+
 def main(argv):
     """
     A function that post request a url
@@ -14,6 +15,7 @@ def main(argv):
     req = requests.post(url, data=value)
 
     print(req.text)
+
 
 if __name__ == "__main__":
     main(argv)
